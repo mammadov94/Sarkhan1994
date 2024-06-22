@@ -6,4 +6,5 @@ public interface Drive {
     void gasoline();
 
     void pickUpSpeed();
+
 }

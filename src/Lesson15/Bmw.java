@@ -23,5 +23,6 @@ public class Bmw extends Vehicle implements Drive{
     public void pickUpSpeed() {
         System.out.println("460км/ч");
 
+
     }
 }

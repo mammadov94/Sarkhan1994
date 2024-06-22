@@ -23,5 +23,6 @@ public class Ferrari  extends Vehicle implements Drive{
     public void pickUpSpeed() {
         System.out.println("850км/ч");
 
+
     }
 }

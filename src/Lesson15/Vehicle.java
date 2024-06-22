@@ -9,5 +9,6 @@ public class Vehicle {
         this.model = model;
         this.color = color;
         this.age = age;
+
     }
 }

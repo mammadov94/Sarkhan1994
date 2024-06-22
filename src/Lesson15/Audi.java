@@ -22,5 +22,6 @@ public class Audi extends Vehicle implements Drive {
     public void pickUpSpeed() {
         System.out.println("560км/ч");
 
+
     }
 }
