@@ -8,6 +8,13 @@ public class Bmw extends Vehicle implements Drive{
     }
 
     @Override
+    void info() {
+        System.out.println("Модель: " +model);
+        System.out.println("Цвет: " +color);
+        System.out.println("Год выпуска: " +age);
+    }
+
+    @Override
     public void drive() {
         System.out.println("Bmw ездит");
 
@@ -15,14 +22,13 @@ public class Bmw extends Vehicle implements Drive{
 
     @Override
     public void gasoline() {
-        System.out.println("Дизельный");
+        System.out.println("Тип топлива: Дизель");
 
     }
 
     @Override
     public void pickUpSpeed() {
-        System.out.println("460км/ч");
-
+        System.out.println("Скорость: 460км/ч");
 
     }
 }

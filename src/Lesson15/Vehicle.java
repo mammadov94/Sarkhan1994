@@ -1,9 +1,13 @@
 package Lesson15;
 
-public class Vehicle {
+public abstract class Vehicle implements Drive{
     String model;
     String color;
     int age;
+
+    void info(){
+
+    }
 
     public Vehicle(String model, String color, int age) {
         this.model = model;
@@ -11,4 +15,6 @@ public class Vehicle {
         this.age = age;
 
     }
+
+
 }

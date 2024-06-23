@@ -7,6 +7,13 @@ public class Audi extends Vehicle implements Drive {
     }
 
     @Override
+    void info() {
+        System.out.println("Модель: " +model);
+        System.out.println("Цвет: " +color);
+        System.out.println("Год выпуска: " +age);
+    }
+
+    @Override
     public void drive() {
         System.out.println("Audi ездит");
 
@@ -14,13 +21,13 @@ public class Audi extends Vehicle implements Drive {
 
     @Override
     public void gasoline() {
-        System.out.println("Электрический");
+        System.out.println("Тип топлива: Гибрид");
 
     }
 
     @Override
     public void pickUpSpeed() {
-        System.out.println("560км/ч");
+        System.out.println("Скорость: 560км/ч");
 
 
     }
